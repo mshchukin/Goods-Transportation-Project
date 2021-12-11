@@ -1,0 +1,14 @@
+Truck started node: 0
+Truck initial load: 0
+Truck max capacity: 30
+
+The algorithm used a threshold factor of (0.5)
+Truck path overall cost: 7751.416799999999
+[0]
+[0, 7]
+[7, 0]
+[0, 1, 3]
+[3, 7, 2, 6]
+[6, 5]
+[5, 6]
+[6, 2, 7, 3]

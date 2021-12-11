@@ -1,0 +1,30 @@
+strict graph  {
+0 [label="\"0 J\": 0, ", type=0, supply=0, demand=0];
+7 [label="\"7 J\": ", type=0, supply=0, demand=0];
+1 [label="\"1 W\": 27, 28, 31, 32, 35, 36, 39, 40, ", type=2, supply=10, demand=0];
+11 [label="\"11 W\": 2, 3, 6, 7, 10, 11, 14, 15, 20, 21, 26, 41, ", type=2, supply=0, demand=0];
+2 [label="\"2 J\": ", type=0, supply=0, demand=0];
+5 [label="\"5 J\": ", type=0, supply=0, demand=0];
+3 [label="\"3 S\": 17, 18, 23, 24, 43, ", type=1, supply=0, demand=0];
+10 [label="\"10 S\": 1, 4, 5, 8, 9, 12, 13, 16, 19, 22, 25, 42, ", type=1, supply=0, demand=0];
+4 [label="\"4 J\": ", type=0, supply=0, demand=0];
+8 [label="\"8 J\": ", type=0, supply=0, demand=0];
+6 [label="\"6 J\": ", type=0, supply=0, demand=0];
+9 [label="\"9 S\": 29, 30, 33, 34, 37, 38, ", type=1, supply=0, demand=0];
+0 -- 7  [label="cost: 448.776", cost="448.776"];
+0 -- 8  [label="cost: 868.981", cost="868.981"];
+0 -- 10  [label="cost: 316.206", cost="316.206"];
+7 -- 4  [label="cost: 779.337", cost="779.337"];
+7 -- 8  [label="cost: 456.35", cost="456.35"];
+1 -- 11  [label="cost: 701.992", cost="701.992"];
+1 -- 9  [label="cost: 550.889", cost="550.889"];
+11 -- 10  [label="cost: 529.947", cost="529.947"];
+11 -- 4  [label="cost: 302.557", cost="302.557"];
+11 -- 6  [label="cost: 327.869", cost="327.869"];
+2 -- 5  [label="cost: 239.265", cost="239.265"];
+2 -- 9  [label="cost: 775.456", cost="775.456"];
+5 -- 8  [label="cost: 417.999", cost="417.999"];
+5 -- 3  [label="cost: 414.636", cost="414.636"];
+3 -- 10  [label="cost: 280.097", cost="280.097"];
+4 -- 6  [label="cost: 278.132", cost="278.132"];
+}
